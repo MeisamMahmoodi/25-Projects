@@ -1,0 +1,54 @@
+body {
+  background: #06bdc1;
+}
+
+.app {
+  width: 1280px;
+  margin: auto;
+}
+
+.quotes-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.inner-quotes-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 900px;
+  text-align: center;
+  min-height: 400px;
+  padding: 0 25px;
+  color: grey;
+  border-radius: 10px;
+  background-color: #f4edea;
+}
+
+.inner-quotes-container p {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.inner-quotes-container h3 {
+  font-size: 2rem;
+  color: black;
+}
+
+.quote-btn {
+  padding-top: 25px;
+}
+
+@media (max-width: 480px) {
+  .inner-quotes-container p {
+    font-size: 1.2rem;
+  }
+
+  .inner-quotes-container h3 {
+    font-size: 1.5rem;
+  }
+}
