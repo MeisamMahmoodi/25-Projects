@@ -1,0 +1,24 @@
+body {
+  background-color: #62929e;
+}
+
+.container {
+  margin: auto;
+  width: 95%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.counter {
+  border: 10px solid black;
+  border-radius: 10%;
+  padding: 100px;
+  text-align: center;
+  background: #4a6d7c;
+}
+
+#count {
+  font-size: 9rem;
+}
