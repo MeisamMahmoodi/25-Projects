@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image fade">
+        <img src="/img/therock1.jpg" alt="therock" width="100%" />
+      </div>
+      <div class="image fade">
+        <img src="/img/therock2.webp" alt="therock" width="100%" />
+      </div>
+      <div class="image fade">
+        <img src="/img/therock3.jpg" alt="therock" width="100%" />
+      </div>
+      <div class="image fade">
+        <img src="/img/therock4.jpg" alt="therock" width="100%" />
+      </div>
+      <div class="image fade">
+        <img src="/img/therock5.jpg" alt="therock" width="100%" />
+      </div>
+
+      <div class="dots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+      <i id="prev" onclick="showImage(-1)" class="fa-solid fa-chevron-left"></i>
+      <i id="next" onclick="showImage(1)" class="fa-solid fa-chevron-right"></i>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
